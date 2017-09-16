@@ -4,7 +4,7 @@
 
 Ссылка на источник: https://yadi.sk/i/E3wjh64e3MfuGh
 
-Постоянный адрес пакета: 
+Постоянный адрес пакета: https://github.com/Kristinita/Eric-s-Red-Room/blob/master/Алкогольные_напитки.txt
 
 <body>
 <!-- Великая история коктейля -->
