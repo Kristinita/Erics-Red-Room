@@ -1,0 +1,3 @@
+[![Build Status](https://travis-ci.org/Kristinita/Erics-Red-Room.svg?branch=master)](https://travis-ci.org/Kristinita/Erics-Red-Room) [![Build status](https://ci.appveyor.com/api/projects/status/9wuiwpl7fym2cl6q?svg=true)](https://ci.appveyor.com/project/Kristinita/erics-red-room) [![CircleCI](https://circleci.com/gh/Kristinita/Erics-Red-Room.svg?style=svg)](https://circleci.com/gh/Kristinita/Erics-Red-Room)
+
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/640px-Open_Access_logo_PLoS_white.svg.png"></p>

@@ -1,0 +1,16 @@
+#############
+# Travis CI #
+#############
+# Travis CI continuous integration
+# Comments:
+# https://github.com/Kristinita/KristinitaPelican/blob/master/.travis.yml
+language: python
+
+python: 3.6.5
+
+install:
+- pip install --upgrade pip
+- pip install erichek
+
+script:
+- erichek
