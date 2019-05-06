@@ -4,21 +4,20 @@
 # AppVeyor continuous integration
 # Comments:
 # https://github.com/Kristinita/KristinitaPelican/blob/master/appveyor.yml
+clone_depth: 1
+
+platform: x64
+
 init:
 - SET PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
 - set PYTHONIOENCODING=utf-8
 
-platform: x64
-
 environment:
-  matrix:
-  - PYTHON: C:\Python36-x64
-    PYTHON_VERSION: 3.6.5
-    PYTHON_ARCH: 64
+  PYTHON: C:\Python37-x64
 
 install:
-- python -m pip install --upgrade pip
-- pip install erichek
+- "%PYTHON%\\python -m pip install --upgrade pip"
+- pip3 install erichek
 
 build_script:
 - erichek

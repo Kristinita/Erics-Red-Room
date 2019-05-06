@@ -4,9 +4,14 @@
 # Travis CI continuous integration
 # Comments:
 # https://github.com/Kristinita/KristinitaPelican/blob/master/.travis.yml
+git:
+  depth: 1
+
 language: python
 
-python: 3.6.5
+dist: xenial
+
+python: 3.7
 
 install:
 - pip install --upgrade pip
